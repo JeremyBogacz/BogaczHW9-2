@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compiling analogIn.cpp and read_resistance.cpp"
+g++ analogIn.cpp read_resistance.cpp -o read_resistance
+echo "Done"
